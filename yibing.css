@@ -1,0 +1,241 @@
+@charset "utf-8";
+/*header start*/
+#header{
+    position:relative;
+    width: 100%;
+    min-width: 1550px;
+    height: 300px;
+}
+#header .header-title{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;
+    display: inline-block;
+    width: 400px;
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Malgun Gothic";
+    color: #000000;
+    word-spacing: 10px;
+}
+#header .header-nav{
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:100px;
+    margin:auto;
+    width: 350px;
+    height: 30px;
+}
+#header .header-nav ul{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+#header .header-nav ul li{
+    display: inline-block;
+    margin-right:15px;
+    width: 120px;
+    height: 30px;
+}
+#header .header-nav ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Malgun Gothic";
+    font-weight: normal;
+    color:#aaaaaa;
+    text-decoration:none;
+}
+#header .header-nav ul li a:hover{
+    color: #333333;
+}
+/*header end*/
+/*main start*/
+#main{
+    position:relative;
+    width:100%;
+    min-width:1550px;
+    height:2000px;
+    background-color:#FAFAFA;
+}
+#main .main-tag{
+    position:absolute;
+    top:-20px;
+    left:0;
+    right:0;
+    margin:auto;
+    width:655px;
+    height:50px;
+}
+#main .main-tag ul{
+    width:100%;
+    height:100%;
+}
+#main .main-tag ul li{
+    display:inline-block;
+    width:150px;
+    height:45px;
+    margin-right:10px;
+}
+#main .main-tag ul li a{
+    display:block;
+    width:100%;
+    height:100%;
+    line-height: 45px;
+    text-align: center;
+    font-size:18px;
+    font-weight:bold;
+    font-family:"Malgun Gothic";
+    color:#000000;
+    border-radius:5px;
+    text-decoration:none;
+    transition:0.2s;
+    background-color:#EEEEEE;
+}
+#main .main-tag ul li .first{
+    color:#EEEEEE;
+    background-color:#68C4CA;
+}
+#main .main-tag ul li .second:hover{
+    color:#EEEEEE;
+    background-color:#FF7373;
+}
+#main .main-tag ul li .third:hover{
+    color:#EEEEEE;
+    background-color:#FFE141;
+}
+#main .main-tag ul li .fourth:hover{
+    color:#EEEEEE;
+    background-color:#569CF8;
+}
+#main .main-content{
+    position:absolute;
+    top:50px;
+    left:0;
+    right:0;
+    margin:auto;
+    width:1200px;
+    height:90%;
+    padding:50px;
+    overflow:hidden;
+}
+#main .main-content li{
+    position:relative;
+    display:inline-block;
+    margin:30px 20px;
+    width: 350px;
+    height: 350px;
+    background-repeat: none;
+    background-size:100% 100%;
+}
+#main .main-content .week1{
+    background-image: url("1.png");
+}
+#main .main-content .week2{
+    background-image: url("2.png");
+}
+#main .main-content .week3{
+    background-image: url("3.png");
+}
+#main .main-content li a{
+    position:absolute;
+    top:0;
+    left:0;
+    display:inline-block;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition:0.3s;
+}
+#main .main-content .week1 a{
+    background-color:#4395F7;
+}
+#main .main-content .week2 a{
+    background-color:#595F61;
+}
+#main .main-content .week3 a{
+    background-color:#FFC35F;
+}
+#main .main-content li:hover a{
+    opacity:0.8;
+}
+#main .main-content li a h3{
+    position:absolute;
+    top:100px;
+    left:0;
+    right:0;
+    margin:auto;
+    width:200px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    font-family:"Malgun Gothic";
+    color:#EEEEEE;
+}
+#main .main-content li a p{
+    position:absolute;
+    top:150px;
+    left:0;
+    right:0;
+    margin:auto;
+    width:150px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    font-size:24px;
+    font-weight:normal;
+    font-family:"Malgun Gothic";
+    color:#EEEEEE;
+}
+/*main end*/
+/*footer start*/
+#footer{
+    position:relative;
+    width:100%;
+    min-width:1550px;
+    height:150px;
+}
+#footer .copyright{
+    position:absolute;
+    top:30px;
+    left:0;
+    right:0;
+    margin:auto;
+    width:1300px;
+    height:80px;
+    line-height:80px;
+    text-align:center;
+    font-size:16px;
+    font-family:"Malgun Gothic";
+    border-top:2px solid #333333;
+}
+/*footer end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
